@@ -1,0 +1,147 @@
+.Checkout{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 1px solid blue;
+    margin-top: 70px;
+    align-items: center;
+}
+.Checkout h1,h2,i{
+    color: aliceblue ;
+
+}
+.AddressSection{
+    height: auto;
+    width: 700px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+}
+.Heading{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 50px;
+    align-items: flex-end;
+}
+.horiline{
+    background-color: red !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.Alladdress{
+    height: auto;
+    width: 100%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.Alladdress p{
+    margin-bottom: 0px;
+}
+
+
+
+.addAddressBTN{
+    background-color: transparent;
+    border: 1.5px solid blue;
+    padding: 5px;
+    border-radius: 4px;
+    transition: all .5s;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+  }
+  .addAddressBTN i{
+    font-size: 15px;
+    padding-right: 2px;
+   }
+   .addressBTN {
+        background-color: transparent;
+outline: none;  
+border: none;
+padding: 2px;
+font-size: 10px;
+margin-left:15px;
+padding-bottom: 20px;
+color: rgb(108, 239, 108);
+}
+
+ .Flex{
+    display: flex;
+    width: 100%;
+}
+.ProcessToPay{
+    border: 1px solid blue;
+    height: 350px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.ProcessToPay p,h4,h3{
+    color: aliceblue;
+}
+.ProcessToPay p{
+    position: static;
+    top: 0px !important;
+}
+.ProcessToPay button{
+    margin-top: 20px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 5px;
+    width: 278px;
+    transition: all ease-in-out 1s;
+}
+.ProcessToPay button:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 768px){
+    .Checkout{
+        display: none;
+    }
+    .AddressSection{
+        margin-top: 50px;
+        margin-left: 9px;
+        width: 340px;
+    }
+.addressMainDiv  h2{
+    display: inline-block !important;
+        margin-top: 100px !important;
+        margin-left: 20px !important;
+    }
+.Flex{
+    display: inline-block;
+}
+.Heading h5{
+    display: none;
+}
+.horiline{
+    width: 340px;
+}
+.Alladdress{
+    margin-left: 0px;
+    width: 340px;
+}
+.addAddressBTN{
+    display: flex;
+    margin: auto auto;
+}
+.forM{
+    display: flex;
+    flex-direction: column;
+}
+.dltbtn{
+    background: transparent;
+    border: none;
+}
+
+}

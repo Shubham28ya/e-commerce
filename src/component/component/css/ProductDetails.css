@@ -1,0 +1,302 @@
+
+p{
+    color: white;
+}
+
+.Maindiv{
+    display: flex;
+    margin-top: 3px;
+    position: relative;
+    margin-top: 73px;
+}
+
+.Img{
+    display: block;
+    height: 510px ;
+    width: 40%;
+    /* border: 1px solid black; */
+    margin-left: 15px;
+    border: .5px solid grey;
+    margin-left: 80px;
+    position: fixed;
+    
+}
+.Img img{
+    height:380px !important;
+    width:100% !important;
+    
+}
+.details{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 47%;
+    /* margin-left: 20px; */
+    position: absolute;
+    right: 50px;
+}
+.details .rating{
+    margin-top: 20px;
+    background-color: green;
+    width: 7%;
+}
+.rating i{
+    position: absolute;
+color: white;
+font-size: 8px;
+margin-top: 5px;
+margin-left:1.5px ;
+}
+.details h5{
+    font-size: 15px;
+    border-radius: 3px;
+    margin-left: 2px;
+    padding-left: 2px;
+}
+.details .price{
+    display: flex;
+    margin-top:-12px;
+}
+.details .price .discount{
+    padding-left: 10px;
+    font-weight: 800;
+    color: green;
+}
+.deliverydetails{
+    margin-top: 40px;
+}
+.deliverydetails input{
+    background-color: rgb(245, 249, 250);
+    color: black;
+    padding-left: 10px;
+    margin-left: 40px;
+    z-index: -8;
+    position: relative;
+    border: none;
+    height: 30px;
+}
+.deliverydetails i{
+    position: absolute;
+    margin-left: 27px;
+    font-size: 18px;
+    color: red;
+    z-index: 1;
+    margin-top: 6px;
+}
+.deliverydetails button{
+border: none;
+outline: none;
+color: rgb(22, 11, 234);
+font-weight: 700;
+background: transparent;
+}
+.Maindiv .moreimg{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+left: 12px;
+
+}
+.Maindiv .moreimg img{
+    width: 60px;
+    height: 95px;
+}
+.buttons{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.stock{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.DimantionHeading{
+    position: relative;
+    left: -17px;
+}
+.dimantions .DimantionHeading{
+    border: none !important;
+    color: grey;
+}
+
+.buttons .button{
+    height: 60px;
+    width: 230px;
+    background-color:#FB641B;
+    color: aliceblue;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+}
+.buttons .cart{
+    background-color:#FF9F00;
+
+}
+.cart:hover{
+    background-color:#FB641B;
+
+}
+.fav:hover{
+    background-color:#FF9F00;
+
+}
+span{
+    font-weight:700 ;
+}
+.buttons i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.offers i{
+    color: green;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 1.9;
+    margin-right: 5px;
+}
+.offers{
+    margin-top: 20px;
+}
+.offers h4{
+    color: green;
+    font-weight: 800;
+    font-size: 17px;
+}
+.offers span{
+    color: blue;
+}
+.productInfo .dimantions span{
+    display: inline-block;
+border: 1px solid blue;
+margin: 10px;
+height: 35px;
+width: 100px;
+padding-top: 5px;
+font-weight: 500;
+text-align: center;
+}
+.warrantyInfo span{
+    color: grey;
+    margin-right: 14px;
+}
+.reviewR{
+    display: inline-block;
+    width: 4.5% !important ;
+    background-color: blue !important;
+    padding-left: 2px;
+    border-radius: 5px;
+    height: auto;
+    font-size: 13px;
+}
+.comment{
+    border: 1px solid grey;
+    height: 120px;
+    margin-top: 40px;
+    margin-left: 0px;
+align-items: center;
+}
+
+.comment .comments{
+    margin-left: 20px;
+}
+.comment span{
+    margin-top: 37px;
+    margin-left: 30px;
+}
+
+
+
+.nameR ,.emailR{
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.emailR{
+    margin-left: 20px;
+}
+.reviews{
+margin-top: 100px;
+}
+.reviewsBar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 1px solid black;
+    height: 150px;
+
+    
+}
+.reviewsBar .bar{
+    width: 100%;
+
+}
+.bar .progress{
+    margin: 10px;
+    height: 6px;
+    width: 70%;
+}
+.ratingBox{
+    text-align: center;
+    line-height: 1.5;
+}
+.ratingnum {
+    font-size: 32px;
+    font-weight: 400;
+}
+.ratingBox,.bar{
+    margin-top: 18px;
+}
+.ratingBox .ratingD{
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.policy{
+    margin-top: 50px;
+}
+.policy span{
+color: gray;
+}
+
+
+.qrdeatils span{
+    color: gray;
+}
+.productInfo .brandandweight{
+    color: green;
+}
+
+@media only screen and (max-width: 560px){
+
+    .Img{
+        width: 105% !important;
+        position: absolute;
+        left: -80px;
+    }
+    .Maindiv{
+        display: flex !important;
+        flex-direction: row !important;
+        width: 95% !important;
+    }
+    .moreimg{
+        display: hide !important;    
+    }
+    .details{
+        margin-top: 170% !important;
+    }
+    .dimantions{
+        display: flex;
+        flex-direction: column;
+    }
+    .comment{
+        height: auto !important;
+    }
+    }
+
+    

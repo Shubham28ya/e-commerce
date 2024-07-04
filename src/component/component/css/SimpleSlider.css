@@ -1,0 +1,143 @@
+
+.hero-slider {
+  position: relative;
+  width: 90%;
+  height: 25rem;
+  overflow: hidden;
+  background: #fff;
+  top: 30px;
+}
+
+.hero-slider img {
+  width: 80% !important;
+  height: 16rem !important;
+  object-fit: cover !important;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  cursor: pointer;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next-arrow {
+  right: 16px;
+}
+
+.prev-arrow {
+  left: 20px;
+}
+
+.slick-dots {
+  bottom: -60px;
+  color:  #220153 !important;
+  width: 100%;
+}
+
+.slick-dots li button:before {
+  color:  #290363 !important;;
+  font-size: 1rem;
+  
+}
+
+
+.slick-dots li button:before {
+  color: #0f0101 ;
+  font-size: 1rem;
+}
+.Main img{
+  /* padding-top: 40px;
+  height: 50px; */
+
+  object-fit: cover !important;
+  width: 100% !important;
+  /* padding: 10px; */
+  /* position: absolute !important; */
+  height: 100%;
+  top: 10% !important;
+
+}
+
+.Main{
+  width: 25vw !important;
+  position: relative;
+  height: 45vh !important;
+  padding: 50px!important;
+}
+.carouselbutton{
+  display: flex;
+  /* position: relative; */
+  background: transparent;
+  color: #4E00C2;
+  border: none;
+outline: none;
+margin: auto auto;
+font-weight: 800;
+}
+.carouselbutton:hover{
+  color: #fff;
+}
+.sliderMobile{
+  display: none;
+}
+
+
+/* responsive css */
+@media only screen and (max-width: 560px){
+  .Main{
+    display: flex;
+    width:46vw !important;
+    position: relative;
+    height: 45vh !important;
+    padding: 50px!important;  
+    justify-content: space-between;  
+} 
+.Main img{
+  width: 100%;
+  margin: 20px;
+}
+  
+  .next-arrow {
+    display: none;
+  }
+  
+  .prev-arrow {
+display: none;}
+.slider{
+  display: none;
+}
+
+.sliderMobile{
+  display: block;
+}
+.Main img{
+  object-fit: contain !important;
+  width: 290px !important;
+  height: 300px !important;
+  top: 10% !important;
+  margin-top: 0px !important;
+  margin-left: -10px !important;
+
+}
+.carouselbutton{
+  color: #4E00C2;
+  border: none;
+outline: none;
+font-weight: 800;
+margin-left: 90px;
+}
+
+}
+
+
+

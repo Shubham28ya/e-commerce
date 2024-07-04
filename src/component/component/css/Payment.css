@@ -1,0 +1,166 @@
+.griddelivery{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 350px 469px 50px;
+    width: 70%;
+    padding: 0px 20px;
+}
+.griddelivery h3{
+    display: inline-block;
+    width: 233px;
+}
+.PaymentDelivery h5
+{
+color:white
+}
+.payment-container {
+    /* background-color: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100% !important;
+    margin-left: 70px;
+}
+.payment-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.payment-method {
+    margin-bottom: 20px;
+}
+.payment-method label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+.payment-method input[type="text"],
+.payment-method input[type="number"],
+.payment-method input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.payment-method select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #218838;
+}
+.body1{
+width: 90%;
+display: flex;
+}
+.paymentOptions{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: start;
+    padding-left: 40px;
+    background-image: url("../img/pay.png");
+    height: 500px;
+    width: 1000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 250px;
+    margin-top: -80px;
+    
+}
+
+.paymentChildBox{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    left: 500px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-top: 0px;
+    
+
+}
+.paymentChildBox img{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    flex-direction: column;
+    border-radius: 50%;
+}
+.paymentChildBox label {
+    color: black;
+}
+.imgi img{
+    display: inline-block;
+}
+.imgi{
+    margin-top: 170px;
+    line-height: 3.5;
+    
+
+}
+.child-bg{
+    position: absolute;
+    height: 733px;
+    width: 1262px;
+    z-index: 3333;
+    top: -235px;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4);
+}
+.paymentChildBox .paybtn{
+    position: absolute;
+    right: 0;
+    width: 25px;
+    background: transparent;
+    color: black;
+    font-weight: 900;
+    border: none;
+    outline: none;
+}
+.subpaybtn{
+    background: transparent;
+    border: 1px solid blue;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+}
+
+    
+@media only screen and (max-width: 768px) {
+    
+    .griddelivery{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
+        align-items: center;
+        width: 380px;
+        height: 280px;
+
+    }
+    .paymentOptions{
+        background-image: none;
+        width: 300px;
+    }
+    .one h4{
+        margin-left: -90px;
+    }
+    
+}

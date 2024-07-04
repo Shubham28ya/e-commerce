@@ -1,0 +1,112 @@
+@media only screen and (max-width: 992px) {
+   .Maindiv{ display: flex;
+    flex-wrap: wrap;
+}
+.buttons .button{
+    height: 60px;
+    width: 120px;
+    background-color:#FB641B;
+    color: aliceblue;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+}
+  }
+   @media only screen and (max-width: 768px) {
+    .details{
+        /* border: 1px solid black; */
+        height: 100%;
+        width: 40%;
+        /* margin-left: 20px; */
+        position: absolute;
+        right: 50px;
+    }
+    .details .rating{
+        background-color: green;
+        width: 15%;
+    }
+      } 
+
+      @media only screen and (max-width: 576px){
+
+        .Maindiv{
+            display: flex;
+            width: 500px;
+        }
+        .Img{
+            width: 500px;
+            position: absolute;
+        }
+        .details{
+            position: absolute;
+            /* border: 1px solid black; */
+            height: 100%;
+            width: 100%;
+            margin-top: 120%;
+            left: 0px;
+            /* margin-left: 20px; */
+        }
+        .details .rating{
+            background-color: green;
+            width: 18%;
+        }
+        
+        .comment{
+            border: 1px solid grey;
+            height: 200px;
+            margin-top: 10px;
+            margin-left: 0px;
+        align-items: center;
+        }
+        
+        .comment .comments{
+            margin-left: 20px;
+        }
+        .comment span{
+            display: block;
+            margin-top: 10px;
+            margin-left: 22px;
+        }
+        .reviewR{
+            display: inline-block;
+            width: 9% !important ;
+            background-color: blue !important;
+            padding-left: 2px;
+            border-radius: 5px;
+            height: auto;
+            font-size: 13px;
+        }
+        .deliverydetails input{
+            background-color: rgb(245, 249, 250);
+            color: black;
+            padding-left: 10px;
+            margin-left: 0px;
+            z-index: -8;
+            /* position: relative; */
+            border: none;
+            height: 30px;
+        }
+        .deliverydetails i{
+            
+            display: none;
+        }
+        .buttons .button{
+            height: 60px;
+            width: 46%;
+            background-color:#FB641B;
+            color: aliceblue;
+            font-weight: 700;
+            border: none;
+            border-radius: 4px;
+        }
+
+      }
+
+
+
+
+
+
+
+
+      

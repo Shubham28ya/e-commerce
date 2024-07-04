@@ -1,0 +1,76 @@
+.empty-cart {
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Maison Neue';
+    font-weight: 300;
+  }
+  
+  .empty-cart svg {
+    max-width: 60%;
+    padding: 5rem 3rem;
+  }
+  
+  .empty-cart #oval,
+  .empty-cart #plus,
+  .empty-cart #diamond,
+  .empty-cart #bubble-rounded {
+    animation: plopp 4s ease-out infinite;
+  }
+  
+  .empty-cart #oval:nth-child(1),
+  .empty-cart #plus:nth-child(2),
+  .empty-cart #diamond:nth-child(3),
+  .empty-cart #bubble-rounded:nth-child(4) {
+    animation-delay: -240ms;
+  }
+  
+  /* Repeat for all nth-child combinations as needed up to 16 */
+  
+  /* Adding general nth-child selector */
+  .empty-cart #oval:nth-child(n),
+  .empty-cart #plus:nth-child(n),
+  .empty-cart #diamond:nth-child(n),
+  .empty-cart #bubble-rounded:nth-child(n) {
+    animation-delay: -240ms * n;
+  }
+  
+  .empty-cart #bg-line:nth-child(2) {
+    fill-opacity: .3;
+  }
+  
+  .empty-cart #bg-line:nth-child(3) {
+    fill-opacity: .4;
+  }
+  
+  @keyframes plopp {
+    0% {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+    100% {
+      transform: translate(0, -10px);
+      opacity: 0;
+    }
+  }
+  
+  .empty-cart h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+  }
+  
+  .empty-cart p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 80%;
+    margin: 1.25rem auto 0 auto;
+  }
+  
+  body {
+    background: #f2f2f2;
+  }
+  

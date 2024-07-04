@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cards{
+justify-content: space-around;
+display: flex;
+flex-wrap: wrap;
+width: 95%;
+border-radius: 5px;
+margin: auto auto;
+}
+
+
+.information {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition:  0.1s ease-in-out;
+    margin-bottom: 20px;
+    height: 400px;
+  }
+  
+  .information:hover {
+    transform: translateY(-5px);
+    background-color:#6306EE;
+  }
+  .information:hover .productName{
+    color:white ;
+  }
+  
+  .information:hover .productPrice{
+    color:white ;
+  }
+  .imageContainer {
+    height: 400px; 
+    overflow: hidden;
+  }
+  
+  .ProductImage {
+    width: 90%;
+    object-fit: cover;
+  }
+  
+  .productName {
+    font-size: 1rem;
+    font-weight: bold;
+    /* color: #333; */
+    color: white;
+    margin-top:-155px;
+    margin-left: 8px;
+  }
+  
+  .productRating img {
+    width: 100px; /* Adjust the width of the rating image */
+    height: 40px;
+    display: block;
+    margin-left: 8px;
+  }
+  
+  .productPriceElement {
+    margin-top: -50px;
+    text-align: center;
+  }
+  
+  .productPrice {
+    font-size: 1.1rem;
+    color: #faf4f4;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+  }
+  
+  /* Category Tag Style */
+  .category {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .information {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
